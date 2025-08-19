@@ -1,4 +1,4 @@
-class SolutionXOR {
+class day2 {
     public int missingNumber(int[] arr) {
         int n = arr.length + 1; // one number missing
         int xorAll = 0;
@@ -19,7 +19,7 @@ class SolutionXOR {
     }
 
     public static void main(String[] args) {
-        SolutionXOR sol = new SolutionXOR();
+        day2 sol = new day2();
 
         int[] arr1 = {1, 2, 4, 5};
         System.out.println("Missing number: " + sol.missingNumber(arr1));
