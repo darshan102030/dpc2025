@@ -9,7 +9,7 @@ public class LeaderInArray {
         leaders.add(maxRight); // no element to the right of last element so last element will always be leader
 
         for (int i = n - 2; i >= 0; i--) {
-            if (arr[i] >= maxRight) {
+            if (arr[i] > maxRight) {
                 leaders.add(arr[i]); // if found greater element adding it to leader list
                 maxRight = arr[i];
             }
