@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class LeaderInArray {
+//LeaderInArray
+public class day5 {
     public static List<Integer> findLeaders(int[] arr) {
         List<Integer> leaders = new ArrayList<>();
         int n = arr.length;
