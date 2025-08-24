@@ -1,6 +1,6 @@
 import java.util.*;
 
-class GroupAnagrams {
+class AnagramGroup {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
 
@@ -24,7 +24,7 @@ class GroupAnagrams {
     }
 
     public static void main(String[] args) {
-        GroupAnagrams ga = new GroupAnagrams();
+        AnagramGroup ga = new AnagramGroup();
 
         String[] input1 = {"eat","tea","tan","ate","nat","bat"};
         String[] input2 = {"abc","bca","cab","xyz","zyx","yxz"};
