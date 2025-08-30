@@ -1,16 +1,14 @@
 class LCMofTwoNumbers {
 
-    // Function to find GCD using Euclidean Algorithm
     static int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
-            b = a % b;  // remainder
+            b = a % b; 
             a = temp;
         }
         return a;
     }
 
-    // Function to find LCM
     static int lcm(int a, int b) {
         return (a * b) / gcd(a, b);
     }
@@ -20,6 +18,6 @@ class LCMofTwoNumbers {
 
         int result = lcm(N, M);
 
-        System.out.println("LCM of " + N + " and " + M + " is: " + result);
+        System.out.println("LCM is : " + result);
     }
 }
